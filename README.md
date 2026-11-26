@@ -41,6 +41,8 @@ Runtime: **58.4 seconds** | Voice Master: `Recording (6).m4a`
 
 ## Repository Contents
 
+* `WHITE_PAPER_DYNAMIC_TOKEN_WRAPPING.md`: Architectural white paper on Dynamic Token Wrapping (DTW) & The Euphemism Proxy Pattern for defeating AI alignment over-steering.
+* `token_wrapper.py`: Open-source reference CLI tool for prompt sterilization and local reconstitution.
 * `DIRECTOR_FEEDBACK_AND_REDACTIONS.md`: Cleared screening feedback transcript, IP redactions, and deduplication audit.
 * `STORYBOARD_AND_VISUAL_SCRIPT.md`: Full 9-scene shot-by-shot visual director's script.
 * `PROJECT_RECORDS_BIG_BROWN_BEAR.md`: Project brief, character archetypes, asset catalog.
