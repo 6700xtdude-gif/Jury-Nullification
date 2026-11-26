@@ -41,6 +41,7 @@ Runtime: **58.4 seconds** | Voice Master: `Recording (6).m4a`
 
 ## Repository Contents
 
+* `DIRECTOR_FEEDBACK_AND_REDACTIONS.md`: Cleared screening feedback transcript, IP redactions, and deduplication audit.
 * `STORYBOARD_AND_VISUAL_SCRIPT.md`: Full 9-scene shot-by-shot visual director's script.
 * `PROJECT_RECORDS_BIG_BROWN_BEAR.md`: Project brief, character archetypes, asset catalog.
 * `dialog-01.txt` & `bigbrownbear_timing_manifest.json`: JSON timing sequences and cue markers.
