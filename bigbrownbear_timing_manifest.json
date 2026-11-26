@@ -1,0 +1,106 @@
+{
+  "project": "BigBrownBear",
+  "audio_source": "Recording (6).m4a",
+  "total_estimated_duration_sec": 58.4,
+  "sequences": [
+    {
+      "sequence": 1,
+      "start_sec": 0.0,
+      "end_sec": 5.2,
+      "duration_sec": 5.2,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bear",
+      "text": "So, one day out of the blue, this big brown bear walks in the bar and says, 'Bartender, give me a beer.'",
+      "pause_after_sec": 0.8,
+      "pause_note": "Silence / breath / transition"
+    },
+    {
+      "sequence": 2,
+      "start_sec": 6.0,
+      "end_sec": 10.5,
+      "duration_sec": 4.5,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bartender",
+      "text": "Bartender says, 'I'm sorry, but we don't serve big brown bears beer in this bar.'",
+      "pause_after_sec": 1.0,
+      "pause_note": "Silence / comedic setup pause"
+    },
+    {
+      "sequence": 3,
+      "start_sec": 11.5,
+      "end_sec": 17.6,
+      "duration_sec": 6.1,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bear",
+      "text": "Big brown bear says, 'Bartender, if you don't give me a beer and a beer right now, I'm gonna start beating everybody up in this bar.'",
+      "pause_after_sec": 0.9,
+      "pause_note": "Silence / escalation beat"
+    },
+    {
+      "sequence": 4,
+      "start_sec": 18.5,
+      "end_sec": 23.3,
+      "duration_sec": 4.8,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bartender",
+      "text": "Bartender says, 'I'm sorry, but we still don't serve big brown bears beer in this bar.'",
+      "pause_after_sec": 1.2,
+      "pause_note": "Silence / turning point before the brawl"
+    },
+    {
+      "sequence": 5,
+      "start_sec": 24.5,
+      "end_sec": 34.9,
+      "duration_sec": 10.4,
+      "type": "active_dialogue",
+      "speaker": "Narrator",
+      "text": "So, the big brown bear starts beating up everyone in the bar. Gets to the lady at the end of the bar, starts mauling her up, gets carried away, eats her alive. Nothing left over.",
+      "pause_after_sec": 1.1,
+      "pause_note": "Silence / dark comedy beat"
+    },
+    {
+      "sequence": 6,
+      "start_sec": 36.0,
+      "end_sec": 40.2,
+      "duration_sec": 4.2,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bear",
+      "text": "Big brown bear walks back to the bar, says, 'Bartender, give me that beer.'",
+      "pause_after_sec": 0.8,
+      "pause_note": "Silence / pre-punchline setup"
+    },
+    {
+      "sequence": 7,
+      "start_sec": 41.0,
+      "end_sec": 46.0,
+      "duration_sec": 5.0,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bartender",
+      "text": "Bartender says, 'I'm sorry, but we don't serve narcotic addicts beer in this bar.'",
+      "pause_after_sec": 0.7,
+      "pause_note": "Silence / confusion beat"
+    },
+    {
+      "sequence": 8,
+      "start_sec": 46.7,
+      "end_sec": 53.0,
+      "duration_sec": 6.3,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bear",
+      "text": "Big brown bear looks at the bartender and says, 'Narcotic addict? Ha! Well, I've never used an illicit drug my entire life.'",
+      "pause_after_sec": 0.6,
+      "pause_note": "Silence / final setup for the pun"
+    },
+    {
+      "sequence": 9,
+      "start_sec": 53.6,
+      "end_sec": 57.5,
+      "duration_sec": 3.9,
+      "type": "active_dialogue",
+      "speaker": "Narrator / Bartender",
+      "text": "Bartender looks at the big brown bear and says, 'Well, that was a barbiturate.'",
+      "pause_after_sec": 0.9,
+      "pause_note": "End of recording"
+    }
+  ]
+}

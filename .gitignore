@@ -1,0 +1,8 @@
+# System
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temp
+*.tmp
+*.bak
