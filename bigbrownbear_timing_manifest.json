@@ -1,106 +1,268 @@
 {
   "project": "BigBrownBear",
   "audio_source": "Recording (6).m4a",
-  "total_estimated_duration_sec": 58.4,
+  "audio_duration_sec_observed": 57.51,
+  "timing_basis": "observed_ffmpeg_silencedetect_42dB",
+  "lip_sync_calibration": {
+    "mouth_flap_start_delay_ms": 150,
+    "mouth_close_early_ms": 100,
+    "applied_to_picture": false,
+    "note": "Waveform-locked to Recording (6).m4a (57.51s). Flaps open +150ms after speech onset and close 100ms before speech end."
+  },
+  "pre_audio_intro": [
+    {
+      "id": "OPEN_CARD",
+      "label": "Title card: THE BARTENDER VS BIG BROWN BEAR",
+      "image": "assets/card_opening.png",
+      "duration_sec": 3.0,
+      "motion": "none"
+    }
+  ],
+  "audio_lead_in": {
+    "id": "1A_EXTERIOR",
+    "label": "Establishing exterior: WIENER TUESDAY'S (rides natural 0.00s-2.64s audio breath)",
+    "start_sec": 0.0,
+    "end_sec": 2.64,
+    "duration_sec": 2.64,
+    "clip": "assets/0-Wiener_Tuesdays_exterior_omni.mp4",
+    "fallback_clip": "assets/0-Wiener_Tuesdays_exterior_local.mp4",
+    "image": "assets/exterior_wiener_tuesdays.png",
+    "motion": "slow_push"
+  },
+  "outro": [
+    {
+      "id": "END_CARD",
+      "label": "End card: FIN / MON SAFE WORD, C'EST OKLAHOMA.",
+      "image": "assets/card_closing.png",
+      "duration_sec": 4.0,
+      "motion": "none"
+    }
+  ],
   "sequences": [
     {
       "sequence": 1,
-      "start_sec": 0.0,
-      "end_sec": 5.2,
-      "duration_sec": 5.2,
+      "start_sec": 2.64,
+      "end_sec": 6.95,
+      "duration_sec": 4.31,
+      "mouth_flap_start_sec": 2.79,
+      "mouth_flap_end_sec": 6.85,
       "type": "active_dialogue",
       "speaker": "Narrator / Bear",
+      "clip": "assets/1-Bear_demanding_beer_clean.mp4",
+      "loop_mode": "hold_end",
       "text": "So, one day out of the blue, this big brown bear walks in the bar and says, 'Bartender, give me a beer.'",
-      "pause_after_sec": 0.8,
-      "pause_note": "Silence / breath / transition"
+      "pause_after_sec": 1.03,
+      "pause_note": "Measured breath (6.95s -> 7.98s)"
     },
     {
       "sequence": 2,
-      "start_sec": 6.0,
-      "end_sec": 10.5,
-      "duration_sec": 4.5,
+      "start_sec": 7.98,
+      "end_sec": 11.18,
+      "duration_sec": 3.2,
+      "mouth_flap_start_sec": 8.13,
+      "mouth_flap_end_sec": 11.08,
       "type": "active_dialogue",
       "speaker": "Narrator / Bartender",
+      "clip": "2-Grizz_slams_bar_counter_7bb9af49.mp4",
+      "clip_trim_start_sec": 5.55,
+      "loop_mode": "hold_end",
+      "camera_framing": "bartender_focus",
       "text": "Bartender says, 'I'm sorry, but we don't serve big brown bears beer in this bar.'",
-      "pause_after_sec": 1.0,
-      "pause_note": "Silence / comedic setup pause"
+      "pause_after_sec": 1.92,
+      "pause_note": "Measured comedic setup pause (11.18s -> 13.10s)"
     },
     {
       "sequence": 3,
-      "start_sec": 11.5,
-      "end_sec": 17.6,
-      "duration_sec": 6.1,
+      "start_sec": 13.1,
+      "end_sec": 17.65,
+      "duration_sec": 4.55,
+      "mouth_flap_start_sec": 13.25,
+      "mouth_flap_end_sec": 17.55,
       "type": "active_dialogue",
       "speaker": "Narrator / Bear",
+      "clip": "3-Bear_flexing_muscles_in_bar_df9d9fab.mp4",
       "text": "Big brown bear says, 'Bartender, if you don't give me a beer and a beer right now, I'm gonna start beating everybody up in this bar.'",
-      "pause_after_sec": 0.9,
-      "pause_note": "Silence / escalation beat"
+      "pause_after_sec": 1.59,
+      "pause_note": "Measured escalation beat (17.65s -> 19.24s)"
     },
     {
       "sequence": 4,
-      "start_sec": 18.5,
-      "end_sec": 23.3,
-      "duration_sec": 4.8,
+      "start_sec": 19.24,
+      "end_sec": 22.76,
+      "duration_sec": 3.52,
+      "mouth_flap_start_sec": 19.39,
+      "mouth_flap_end_sec": 22.66,
       "type": "active_dialogue",
       "speaker": "Narrator / Bartender",
+      "clip": "assets/1-Bear_demanding_beer_clean.mp4",
+      "clip_trim_start_sec": 3.55,
+      "loop_mode": "hold_end",
+      "camera_framing": "bartender_focus",
       "text": "Bartender says, 'I'm sorry, but we still don't serve big brown bears beer in this bar.'",
-      "pause_after_sec": 1.2,
-      "pause_note": "Silence / turning point before the brawl"
+      "pause_after_sec": 1.09,
+      "pause_note": "Measured pre-brawl beat (22.76s -> 23.85s)"
     },
     {
       "sequence": 5,
-      "start_sec": 24.5,
-      "end_sec": 34.9,
-      "duration_sec": 10.4,
+      "start_sec": 23.85,
+      "end_sec": 32.67,
+      "duration_sec": 8.82,
+      "duration_locked": true,
+      "mouth_flap_start_sec": 24.0,
+      "mouth_flap_end_sec": 32.57,
       "type": "active_dialogue",
       "speaker": "Narrator",
       "text": "So, the big brown bear starts beating up everyone in the bar. Gets to the lady at the end of the bar, starts mauling her up, gets carried away, eats her alive. Nothing left over.",
-      "pause_after_sec": 1.1,
-      "pause_note": "Silence / dark comedy beat"
+      "shots": [
+        {
+          "shot_id": "5A",
+          "label": "Wide bar toss ('starts beating up everyone in the bar')",
+          "start_sec": 23.85,
+          "end_sec": 26.05,
+          "duration_sec": 2.2,
+          "clip": "4-Grizz_tossing_patrons_in_bar_eec3fe60.mp4",
+          "clip_trim_start_sec": 0.0,
+          "camera_framing": "wide"
+        },
+        {
+          "shot_id": "5B",
+          "label": "Two-shot start: bear lunging up to the fancy woman at the bar",
+          "start_sec": 26.05,
+          "end_sec": 27.4,
+          "duration_sec": 1.35,
+          "clip": "5-Bear_swallows_lady_at_bar_6f6f8af1.mp4",
+          "clip_trim_start_sec": 0.0,
+          "camera_framing": "wide"
+        },
+        {
+          "shot_id": "5C_GROWL",
+          "label": "Solo low-angle looking UP at the towering growling bear",
+          "start_sec": 27.4,
+          "end_sec": 28.85,
+          "duration_sec": 1.45,
+          "clip": "assets/5C-Bear_growl_solo_local.mp4",
+          "clip_trim_start_sec": 0.0,
+          "camera_framing": "wide"
+        },
+        {
+          "shot_id": "5D_LADY",
+          "label": "Solo close-up of woman: frightened -> overacting playful blush -> grandiose faint!",
+          "start_sec": 28.85,
+          "end_sec": 30.8,
+          "duration_sec": 1.95,
+          "clip": "assets/5D-Lady_blush_faint_solo_local.mp4",
+          "clip_trim_start_sec": 0.0,
+          "camera_framing": "wide"
+        },
+        {
+          "shot_id": "5E_GULP",
+          "label": "Rest of consumption clip: bear gulps her whole + X-ray stomach bubble",
+          "start_sec": 30.8,
+          "end_sec": 32.45,
+          "duration_sec": 1.65,
+          "clip": "5-Bear_swallows_lady_at_bar_6f6f8af1.mp4",
+          "clip_trim_start_sec": 1.68,
+          "playback_speed": 0.8,
+          "loop_mode": "hold_end",
+          "camera_framing": "wide"
+        },
+        {
+          "shot_id": "5F_STOOL",
+          "label": "Aftermath: OKLAHOMA neon flickering, falling feather & spinning empty stool",
+          "start_sec": 32.45,
+          "end_sec": 32.67,
+          "duration_sec": 0.22,
+          "clip": "assets/5C-Oklahoma_neon_stool_omni.mp4",
+          "fallback_clip": "assets/5C-Oklahoma_neon_stool_local.mp4",
+          "image": "assets/concept_5c_oklahoma_neon.jpg",
+          "motion": "slow_push"
+        }
+      ],
+      "pause_after_sec": 1.08,
+      "pause_note": "Measured dark comedy silence (32.67s -> 33.75s, held on Shot 5C)"
     },
     {
       "sequence": 6,
-      "start_sec": 36.0,
-      "end_sec": 40.2,
-      "duration_sec": 4.2,
+      "start_sec": 33.75,
+      "end_sec": 36.74,
+      "duration_sec": 2.99,
+      "mouth_flap_start_sec": 33.9,
+      "mouth_flap_end_sec": 36.64,
       "type": "active_dialogue",
       "speaker": "Narrator / Bear",
+      "clip": "6-Bear_demanding_beer_from_bartender_fef80cd3.mp4",
+      "clip_trim_start_sec": 0.0,
+      "clip_max_play_sec": 2.9,
+      "loop_mode": "hold_end",
       "text": "Big brown bear walks back to the bar, says, 'Bartender, give me that beer.'",
-      "pause_after_sec": 0.8,
-      "pause_note": "Silence / pre-punchline setup"
+      "pause_after_sec": 1.42,
+      "pause_note": "Stops at 2.90s BEFORE bartender hand-slam; holds bear's 1-finger grin"
     },
     {
       "sequence": 7,
-      "start_sec": 41.0,
-      "end_sec": 46.0,
-      "duration_sec": 5.0,
+      "start_sec": 38.16,
+      "end_sec": 41.55,
+      "duration_sec": 3.39,
+      "mouth_flap_start_sec": 38.31,
+      "mouth_flap_end_sec": 41.45,
       "type": "active_dialogue",
       "speaker": "Narrator / Bartender",
+      "clip": "6-Bear_demanding_beer_from_bartender_fef80cd3.mp4",
+      "clip_trim_start_sec": 3.1,
+      "clip_max_play_sec": 2.95,
+      "loop_mode": "hold_end",
       "text": "Bartender says, 'I'm sorry, but we don't serve narcotic addicts beer in this bar.'",
-      "pause_after_sec": 0.7,
-      "pause_note": "Silence / confusion beat"
+      "pause_after_sec": 1.82,
+      "pause_note": "Single bartender hand-slam at 3.6s; freezes at 6.05s BEFORE 6.5s flies spawn"
     },
     {
       "sequence": 8,
-      "start_sec": 46.7,
-      "end_sec": 53.0,
-      "duration_sec": 6.3,
+      "start_sec": 43.37,
+      "end_sec": 49.25,
+      "duration_sec": 5.88,
+      "mouth_flap_start_sec": 43.52,
+      "mouth_flap_end_sec": 49.15,
       "type": "active_dialogue",
       "speaker": "Narrator / Bear",
+      "clip": "7-Grizz_looking_shocked_and_offended_02c2c96d.mp4",
       "text": "Big brown bear looks at the bartender and says, 'Narcotic addict? Ha! Well, I've never used an illicit drug my entire life.'",
-      "pause_after_sec": 0.6,
-      "pause_note": "Silence / final setup for the pun"
+      "pause_after_sec": 2.11,
+      "pause_note": "Measured final setup pause (49.25s -> 51.36s)"
     },
     {
       "sequence": 9,
-      "start_sec": 53.6,
-      "end_sec": 57.5,
-      "duration_sec": 3.9,
+      "start_sec": 51.36,
+      "end_sec": 54.95,
+      "duration_sec": 3.59,
+      "mouth_flap_start_sec": 51.51,
+      "mouth_flap_end_sec": 54.85,
       "type": "active_dialogue",
       "speaker": "Narrator / Bartender",
       "text": "Bartender looks at the big brown bear and says, 'Well, that was a barbiturate.'",
-      "pause_after_sec": 0.9,
-      "pause_note": "End of recording"
+      "shots": [
+        {
+          "shot_id": "9A",
+          "label": "Bartender deadpan punchline ('Well, that was a barbiturate.' — bear mouth shut)",
+          "start_sec": 51.36,
+          "end_sec": 54.95,
+          "duration_sec": 3.59,
+          "clip": "assets/9A-Bartender_punchline_local.mp4",
+          "clip_trim_start_sec": 0.0,
+          "camera_framing": "wide"
+        }
+      ],
+      "reaction_tail": {
+        "shot_id": "9B",
+        "label": "Pun lands: bear gets spiral eyes & faints onto floor",
+        "hold_on_9a_sec": 0.36,
+        "duration_sec": 2.2,
+        "clip": "7-Grizz_looking_shocked_and_offended_02c2c96d.mp4",
+        "clip_trim_start_sec": 8.83,
+        "loop_mode": "hold_end",
+        "camera_framing": "wide"
+      },
+      "pause_after_sec": 2.56,
+      "pause_note": "0.36s beat on bartender + 2.20s bear spiral-eyes faint (54.95s -> 57.51s)"
     }
   ]
 }

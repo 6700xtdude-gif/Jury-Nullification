@@ -66,7 +66,7 @@ To protect the project from copyright / trademark infringement while preserving 
 ## 4. Immediate Pipeline Actions
 
 1. **Adjust Mouth-Flap Timing Window:**
-   * Apply `-150ms` offset to mouth-flap trigger start times across all dialogue sequences.
+   * Delay mouth-flap open by `+150ms` after each dialogue line starts (director: mouths "start too soon"). *Corrected 2026-11-26: originally written as `-150ms`, which pointed the wrong way.*
    * Force mouth closure `100ms` prior to sequence termination marker.
 2. **Fix Scene 5 Timeline Anchor & Drift:**
    * Clamp Scene 5 visual duration to exactly `10.4s` (`24.5s` to `34.9s`) to prevent compounding drift in Sequences 06–09.

@@ -3,6 +3,13 @@ Thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Temp
+# Temp & Python cache
 *.tmp
 *.bak
+__pycache__/
+*.pyc
+
+# Scratch build artifacts (masters are tracked)
+_animatic_build/
+bigbrownbear_animatic_v*.mp4
+assets/cartoon_sfx_bed.wav

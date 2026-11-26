@@ -1,0 +1,18 @@
+[
+  {
+    "prompt": "Use this image as the starting frame. Continuous unbroken shot, no scene cuts. Night exterior of a gritty hand-inked cartoon dive bar. The glowing neon sign reading 'WIENER TUESDAY'S' and the neon hot dog icon buzz and flicker softly in the night air while moths circle the crooked streetlamp. The big spotted brown bear lumbers heavily forward across the cracked sidewalk and pushes through the open wooden doorway into the warm tavern light. Subtle wind, buzzing neon tube hum, heavy footsteps on concrete. No dialogue.",
+    "first_frame": "assets/exterior_wiener_tuesdays.png",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "output": "assets/0-Wiener_Tuesdays_exterior_omni.mp4"
+  },
+  {
+    "prompt": "Use this image as the starting frame. Continuous unbroken shot, no scene cuts. Gritty hand-inked adult cartoon tavern interior in exaggerated 90s slapstick style. On the left, the huge satisfied brown bear lets out a tiny contented hiccup and pats his round full belly with his clawed paws. On the back wall, the pink neon sign clearly spelling 'OKLAHOMA' buzzes with the last letters flickering erratically. On the right, the red empty bar stool spins rapidly on its post, slowing down slightly while the single white feather drifts gently down onto the spinning seat as the nervous balding bartender stares in frozen shock. Buzzing neon hum, spinning metal stool squeak. No dialogue.",
+    "first_frame": "assets/concept_5c_oklahoma_neon.jpg",
+    "duration": 4,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "output": "assets/5C-Oklahoma_neon_stool_omni.mp4"
+  }
+]

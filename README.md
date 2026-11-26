@@ -1,61 +1,63 @@
 # Jury Nullification — Big Brown Bear Project
 
 > **Copyright (c) 2026 6700XT <6700XTdude@gmail.com>. All rights reserved.**  
-> Master repository holding every one and zero of the "Big Brown Bear" joke animatic project.
+> Master repository holding the locked **Big Brown Bear** spoken-word dark-comedy animatic, local 2D cartoon animation & SFX pipeline, and the open-source **Dynamic Token Wrapping (DTW)** white paper & CLI (*In memoriam George Carlin*).
 
 ---
 
-## Overview
+## Master Cuts (`1280x720 @ 24fps`, `64.51s` Waveform-Locked)
 
-A dark-comedy, spoken-word stand-up animatic project conceived, written, voiced, and directed by **6700XT**.
-
-* **Aesthetic:** Minimalist B&W / Grayscale rough draft hand-drawn animatic.
-* **Inspirations:**
-  * **Visual Style:** Rigid perspective and clean character lines inspired by Rick & Morty (*Adult Swim: State of Georgia vs. Denver Fenton Allen* animatic).
-  * **Motion Physics:** Exaggerated kinetic impact bursts, muscle flexes, and squash-and-stretch dynamics inspired by Ren & Stimpy.
-  * **Setting:** A rural Midwest tavern / hole-in-the-wall meetup bar.
-* **Core Cast:**
-  * **The Bear:** Expressive, physically intimidating, comedic weight. Demands beer, wrecks the bar, remains genuinely offended by accusations of illicit drug use.
-  * **The Bartender:** World-weary, apron-clad, perpetually wiping the same pint glass with a rag. Completely unfazed by bar violence; deadpan comedic delivery.
-  * **The Patron:** Lady at the far end of the bar counter.
+* **`bigbrownbear_animatic_master.mp4`** — Gritty muted tavern color + glowing neon signs, untouched master voice recording (`Recording (6).m4a`, `57.51s`), and synced stereo Cartoon SFX bed.
+* **`bigbrownbear_animatic_sincity_master.mp4`** — *"Sin City"* film-noir B&W edition across characters, wood, and clothes, keeping vivid selective color strictly on glowing neon signs (**`WIENER TUESDAY'S`** + neon hot dog, **`OKLAHOMA`**, bar neons) and the patron's playful rosy blush & floating pink hearts.
 
 ---
 
-## Master Dialogue & Timing Manifest
+## Locked Waveform Timeline (`0.00s` Audio Drift)
 
-Runtime: **58.4 seconds** | Voice Master: `Recording (6).m4a`
+`Recording (6).m4a` (`57.51s`) is never cut or time-stretched. Following the `3.00s` silent title card, the **Wiener Tuesday's** establishing shot rides the recording's natural `0.00s–2.64s` intro room breath so spoken dialogue hits frame-accurately at `05.64s`:
 
-| Seq | Window | Speaker | Dialogue / Action Beat |
+| Video Time | Audio Time | Cut ID | Beat / Visual Action |
 | :---: | :---: | :--- | :--- |
-| **01** | `0.0s – 5.2s` | **Bear** | *"So, one day out of the blue, this big brown bear walks in the bar and says, 'Bartender, give me a beer.'"* |
-| **02** | `6.0s – 10.5s` | **Bartender** | *"I'm sorry, but we don't serve big brown bears beer in this bar."* |
-| **03** | `11.5s – 17.6s` | **Bear** | *"Bartender, if you don't give me a beer and a beer right now, I'm gonna start beating everybody up in this bar."* |
-| **04** | `18.5s – 23.3s` | **Bartender** | *"I'm sorry, but we still don't serve big brown bears beer in this bar."* |
-| **05** | `24.5s – 34.9s` | **Narrator (Brawl)** | *Starts beating up everyone in the bar. Gets to the lady at the end of the bar, starts mauling her up, gets carried away, eats her alive. Nothing left over.* |
-| **06** | `36.0s – 40.2s` | **Bear** | *Walks back to the bar: "Bartender, give me that beer."* |
-| **07** | `41.0s – 46.0s` | **Bartender** | *"I'm sorry, but we don't serve narcotic addicts beer in this bar."* |
-| **08** | `46.7s – 53.0s` | **Bear** | *"Narcotic addict? Ha! Well, I've never used an illicit drug my entire life."* |
-| **09** | `53.6s – 57.5s` | **Bartender** | *"Well, that was a barbiturate."* *(bar-bitch-you-ate)* |
+| `00.00s – 03.00s` | *(pre-roll)* | `OPEN_CARD` | Title card: **`THE BARTENDER VS BIG BROWN BEAR`** |
+| `03.00s – 05.64s` | `00.00s – 02.64s` | `1A_EXTERIOR` | **`WIENER TUESDAY'S`** neon + blinking hot dog, streetlamp moths, bear entering |
+| `05.64s – 10.98s` | `02.64s – 07.98s` | `S1` | Bear enters bar and demands a beer (wall specks scrubbed clean) |
+| `10.98s – 16.10s` | `07.98s – 13.10s` | `S2` | Bartender deadpan refusal #1 |
+| `16.10s – 22.24s` | `13.10s – 19.24s` | `S3` | Bear flexes & threatens to beat everyone up |
+| `22.24s – 26.85s` | `19.24s – 23.85s` | `S4` | Bartender deadpan refusal #2 (glass inspection) |
+| `26.85s – 29.05s` | `23.85s – 26.05s` | `S5_5A` | Wide bar brawl toss + crash SFX |
+| `29.05s – 30.40s` | `26.05s – 27.40s` | `S5_5B` | Two-shot: bear lunges up to the fancy woman at the bar |
+| `30.40s – 31.85s` | `27.40s – 28.85s` | `S5_5C_GROWL` | Low-angle solo looking straight up at the towering growling bear |
+| `31.85s – 33.80s` | `28.85s – 30.80s` | `S5_5D_LADY` | Woman solo: frightened gasp -> playful rosy blush & flutter -> grandiose faint swoon |
+| `33.80s – 35.45s` | `30.80s – 32.45s` | `S5_5E_GULP` | `0.80x` consumption + X-ray stomach bubble + cartoon gulp SFX |
+| `35.45s – 36.75s` | `32.45s – 33.75s` | `S5_5F_STOOL` | **`OKLAHOMA`** sputtering neon, falling white feather & spinning empty red stool |
+| `36.75s – 41.16s` | `33.75s – 38.16s` | `S6` | Bear calmly returns to counter asking for his beer (held pre-slam) |
+| `41.16s – 46.37s` | `38.16s – 43.37s` | `S7` | Bartender single bartop slam: *"we don't serve narcotic addicts"* (frozen pre-flies) |
+| `46.37s – 54.36s` | `43.37s – 51.36s` | `S8` | Indignant bear clutches chest: *"Narcotic addict? Ha!..."* |
+| `54.36s – 58.31s` | `51.36s – 55.31s` | `S9_9A` | Authentic Clip 7 bartender close-up: jaw drops strictly on *"'Well, that was a barbiturate.'"* |
+| `58.31s – 60.51s` | `55.31s – 57.51s` | `S9_9B` | Pun lands: bear gets dizzy spiral eyes and crashes flat onto the floor |
+| `60.51s – 64.51s` | *(tail pad)* | `END_CARD` | End card: **`FIN / MON SAFE WORD, C'EST OKLAHOMA.`** |
 
 ---
+
+## Rebuilding Locally
+
+```powershell
+# Rebuilds SFX bed + both Color and Sin City master MP4s:
+.\render_timeline.bat
+```
 
 ## Repository Contents
 
-* `WHITE_PAPER_DYNAMIC_TOKEN_WRAPPING.md`: Architectural white paper on Dynamic Token Wrapping (DTW) & The Euphemism Proxy Pattern for defeating AI alignment over-steering.
-* `token_wrapper.py`: Open-source reference CLI tool for prompt sterilization and local reconstitution.
-* `DIRECTOR_FEEDBACK_AND_REDACTIONS.md`: Cleared screening feedback transcript, IP redactions, and deduplication audit.
-* `STORYBOARD_AND_VISUAL_SCRIPT.md`: Full 9-scene shot-by-shot visual director's script.
-* `PROJECT_RECORDS_BIG_BROWN_BEAR.md`: Project brief, character archetypes, asset catalog.
-* `dialog-01.txt` & `bigbrownbear_timing_manifest.json`: JSON timing sequences and cue markers.
-* `bbb-chatgpt01.txt`: Original raw stream-of-consciousness dictation and style parameters.
-* `assemble_animatic.py`: Local Python automation pipeline for timeline alignment.
-* `Recording (6).m4a`: Master spoken-word voice track.
-* `Recording.m4a`: Alternate / preliminary voice take.
-* `1-Bear_demanding_beer_at_bar_9c18c2c5.mp4` through `7-Grizz_looking_shocked_and_offended_02c2c96d.mp4`: Rendered animatic sequence clips.
-* Concept art keyframes (`*.png`).
+* `bigbrownbear_animatic_master.mp4` & `bigbrownbear_animatic_sincity_master.mp4`: Final master renders.
+* `bigbrownbear_timing_manifest.json`: Waveform-locked sequence & multi-shot manifest (`+150ms` lip-sync open / `-100ms` close spec).
+* `assemble_animatic.py`: Master FFmpeg + vectorized Sin City selective-color pipeline.
+* `animate_shots_local.py`: Local 2D cartoon animator (neon voltage sputter, moths, falling feather, spinning stool, growl low-angle, diva blush/swoon, and syllable-locked bartender jaw).
+* `build_cartoon_sfx.py`: Deterministic stereo 44.1kHz Cartoon SFX synthesizer (`seed = 6700`).
+* `WHITE_PAPER_DYNAMIC_TOKEN_WRAPPING.md` & `token_wrapper.py`: Open-source DTW white paper and reference CLI.
+* `STORYBOARD_AND_VISUAL_SCRIPT.md`, `DIRECTOR_FEEDBACK_AND_REDACTIONS.md`, `PROJECT_RECORDS_BIG_BROWN_BEAR.md`: Production records & IP audit.
 
 ---
 
 ## License
 
-Copyright (c) 2026 6700XT <6700XTdude@gmail.com>. All rights reserved.
+Copyright (c) 2026 6700XT <6700XTdude@gmail.com>. All rights reserved. (`token_wrapper.py` and DTW white paper released under repository `LICENSE`.)
